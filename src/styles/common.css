@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: Helvetica Neue,Helvetica,STHeiTi,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+
+dd, dl, li, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mint-header {
+  height: 45px;
+}
+
+.mint-loadmore-top span {
+    display: inline-block;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+    vertical-align: middle
+}
+.mint-loadmore-top span.is-rotate {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
