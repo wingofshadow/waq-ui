@@ -57,6 +57,7 @@
 }
 
 .list-item {
+    position: relative;
     border-bottom: 1px solid #eee;
     text-align: left;
     padding: 3px 10px;
@@ -70,9 +71,9 @@
 .list-item .item-price{
   color:#ff879d;
   font-size:16px;
-  float: right;
-  margin-top:5px;
-  margin-right:5px;
+  position: absolute;
+  top:8px;
+  right:15px;
 }
 
 </style>
